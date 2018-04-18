@@ -19,7 +19,7 @@ if(IsInjected($visitor_email))
 $email_from = $visitor_email;//<== update the email address
 $email_subject = "New Email from the contact page";
 $email_body = "You have received an email from $name.\n".
-    "Their message is:\n $message \n \n \n".
+    "Their message is:\n $message \n \n \n";
 
 $to = "olyy.crook@gmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
@@ -27,7 +27,7 @@ $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
-header('Location: http://wwww.olyy.co.uk');
+header('Location: http://www.olyy.co.uk');
 
 
 // Function to validate against any email injection attempts
