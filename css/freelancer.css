@@ -343,6 +343,7 @@ a:focus, a:hover, a:active {
 
 .bg-primary {
   background-image: url(../img/header-BG.jpeg) !important;
+  background-size: 100% 100% !important;
 }
 
 .bg-secondary {
