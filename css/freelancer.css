@@ -230,7 +230,7 @@ header.masthead h2 {
 
 .portfolio-modal .portfolio-modal-dialog {
   padding: 3rem 1rem;
-  min-height: calc(100vh - 2rem);
+  min-height: calc(100vh - 5rem);
   margin: 1rem calc(1rem - 8px);
   position: relative;
   z-index: 2;
@@ -342,7 +342,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-image: url(../img/header-BG.jpeg) !important;
+  background-image: url(../img/header-BG.jpg) !important;
   background-size: 100% 100% !important;
 }
 
