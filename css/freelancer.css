@@ -66,6 +66,19 @@ section h2 {
   }
 }
 
+.icons {
+  margin-top: -20px;
+  font-size: 2em;
+}
+
+.icons a {
+  text-decoration: none !important;
+}
+
+.fa-link{
+  margin-right: 10px;
+}
+
 .btn-xl {
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
