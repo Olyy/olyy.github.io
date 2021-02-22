@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Olyy</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+    <p>
+        import React, { useState } from 'react';
+    </p>
+    <p>
+        const Olyy = () => {<br>
+        const birthplace = 'Albuquerque, New Mexico, USA';<br>
+        const name = 'Oliver'<br>
+        const [location, setLocation] = useState('San Francisco, CA, USA');<br>
+        const [disiplinary, setDisciplinary] = useState(['💻 developer']);<br>
+        const [likes, setLikes] = useState(['👾', '🥷🗡', '📸', '👅💦']);
+    </p>
+
+    <p>
+        return(
+        <p class="pl-5">
+                &lt;div&gt;<br>
+        </p>
+        <p class="pl-10">
+                &lt;h1&gt;I'm {name}, {disiplinary.map((item,i) =&gt; &lt;span key={i}&gt;{ (i && ', ') + item }&lt;/span&gt;)}.&lt;/h1&gt;<br>
+                &lt;p&gt;Born in {birthplace}. Worked in digital marketing for 5+ years {location} in 2009.&lt;/p&gt;<br>
+                &lt;p&gt;Teleported to {setLocation('Neo-Tokyo, Japan')} in 2018.&lt;/p&gt;<br>
+                &lt;p className="strong"&gt;I 🖤 {likes.map((item,i) =&gt; &lt;span key={i}&gt;{ (i && ', ') + item }&lt;/span&gt;)}.&lt;/p&gt;
+        </p>
+        <p class="pl-5">
+            &lt;/div&gt;<br>
+        </p>
+            );
+        </p>
+        }
+    </p>
+  
+  <script src="js/scripts-min.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
