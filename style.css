@@ -1,1 +1,1 @@
-body{background-color:#000000;color:white;padding:5rem;font-family:"VT323",monospace;font-size:1.6rem}.pl-5{padding-left:3rem}.pl-10{padding-left:6rem}
+html{scroll-behavior:smooth;background-color:#f1f1f1}body{max-width:1600px;width:95vw;margin:0 auto!important}.am .paper-btn{display:flex;justify-content:center;align-items:center;height:60px;width:60px}.am .paper-btn:not(:last-of-type){margin-right:2rem}.am .paper-btn img{height:24px;width:auto}.text-center{text-align:center}

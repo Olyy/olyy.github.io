@@ -9,51 +9,84 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/fonts/flaticon.css">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.8.2/dist/paper.min.css">
+  
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+  <div class="paper">
+    <div class="row flex-center">
+        <h1 class="col sm-12 margin-bottom-none text-center">Oliver Crook</h1>
+        <h4 class="col sm-12 margin-top-none margin-bottom-none text-center">Web Developer</h4>
+    </div>
+    <div class="row flex-center">
+      <div class="col sm-12 md-6 row flex-spaces">
+        <a href="#about" class="paper-btn">About</a>
+        <a href="#been" class="paper-btn">Where I've Been</a>
+        <a href="#do" class="paper-btn">What I Do</a>
+        <a href="#am" class="paper-btn">Find Me</a>
+      </div>
+    </div>
+    <div class="row flex-center">
+      <div class="col sm-12 md-8">
+        <h3 id="about" class="margin-top-none">About</h3>
+        <p>Lover of loud guitars and most things nerdy.</p>
+        <p>Sports (Rugby, MMA), photography, technology, video games, most things Japanese </p>
 
-    <p>
-        import React, { useState } from 'react';
-    </p>
-    <p>
-        const Olyy = () => {<br>
-        const birthplace = 'Albuquerque, New Mexico, USA';<br>
-        const name = 'Oliver'<br>
-        const [location, setLocation] = useState('San Francisco, CA, USA');<br>
-        const [disiplinary, setDisciplinary] = useState(['💻 developer']);<br>
-        const [likes, setLikes] = useState(['👾', '🥷🗡', '📸', '👅💦']);
-    </p>
 
-    <p>
-        return(
-        <p class="pl-5">
-                &lt;div&gt;<br>
-        </p>
-        <p class="pl-10">
-                &lt;h1&gt;I'm {name}, {disiplinary.map((item,i) =&gt; &lt;span key={i}&gt;{ (i && ', ') + item }&lt;/span&gt;)}.&lt;/h1&gt;<br>
-                &lt;p&gt;Born in {birthplace}. Worked in digital marketing for 5+ years {location} in 2009.&lt;/p&gt;<br>
-                &lt;p&gt;Teleported to {setLocation('Neo-Tokyo, Japan')} in 2018.&lt;/p&gt;<br>
-                &lt;p className="strong"&gt;I 🖤 {likes.map((item,i) =&gt; &lt;span key={i}&gt;{ (i && ', ') + item }&lt;/span&gt;)}.&lt;/p&gt;
-        </p>
-        <p class="pl-5">
-            &lt;/div&gt;<br>
-        </p>
-            );
-        </p>
-        }
-    </p>
-  
-  <script src="js/scripts-min.js"></script>
+      <h3 id="been">Where I've Been</h3>
+      <h4>Education</h4>
+      <ul>
+        <li>Aberystwyth University
+            <ul>
+              <li>08 - 12, BSc Environmental Biology</li>
+            </ul>
+        </li>
+        <li>Staffordshire University
+          <ul>
+            <li>17 - 18, HNC Computing Science</li>
+          </ul>
+        </li>
+      </ul>
+      <h4>Work</h4>
+      <ul>
+        <li>MMS Marketing
+            <ul>
+              <li>18 - 19, Digital Executive</li>
+            </ul>
+        </li>
+        <li>Twentytwo Digital
+          <ul>
+            <li>19 - ??, Web Developer</li>
+          </ul>
+        </li>
+      </ul>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+      <h3 id="do">What I Do</h3>
+      <h4 class="margin-bottom-none">Daily</h4>
+      <p>HTML5, CSS, SASS, Javscript, jQuery, Wordpress, Shopify (Liquid), Bootstrap</p>
+      <h4 class="margin-bottom-none">Improving</h4>
+      <p>PHP, SQL</p>
+      <h4 class="margin-bottom-none">Investing</h4>
+      <p>React, Node, Kotlin</p>
+
+      <h3 id="am">Where I Am</h3>
+      <p class="am row">
+        <a alt="Instagram" href="https://www.instagram.com/olyy.uk/" class="paper-btn" target="_blank"><span class="flaticon-instagram-hand-drawn-logo"></span></a>
+        <a alt="LinkedIn" href="https://www.linkedin.com/in/oliverbcrook/" class="paper-btn" target="_blank"><span class="flaticon-linkedin-logo-hand-drawn-outline"></span></a>
+        <a alt="Github" href="https://github.com/Olyy" class="paper-btn" target="_blank"><img src="/fonts/GitHub-Mark-32px.png" alt="Github"></a>
+        
+      </p>
+
+    </div>
+    </div>
+
+  </div>
+  <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
 </body>
 
 </html>
